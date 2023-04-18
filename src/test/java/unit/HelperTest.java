@@ -1,4 +1,4 @@
-package Tests;
+package unit;
 
 import org.junit.*;
 import static NumberHelper.Helper.*;

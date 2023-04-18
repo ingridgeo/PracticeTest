@@ -2,6 +2,8 @@ package NumberHelper;
 
 public class Helper {
 
+    public static final String ERR_INVALID_ARG = "The input number is not finite.";
+
     /**
      * The function returns the number of digits required to represent the given integer number
      *
@@ -13,7 +15,7 @@ public class Helper {
         double absValue = Math.abs(number.doubleValue());
 
         if (!Double.isFinite(absValue)) {
-            throw new IllegalArgumentException("The input number is not finite.");
+            throw new IllegalArgumentException(ERR_INVALID_ARG);
         }
 
         int numberDigits = 1;
