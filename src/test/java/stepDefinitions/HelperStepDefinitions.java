@@ -1,4 +1,4 @@
-package unit;
+package stepDefinitions;
 
 import static NumberHelper.Helper.*;
 import static org.junit.Assert.assertEquals;

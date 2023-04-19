@@ -1,8 +1,5 @@
-package unit;
-
 import org.junit.*;
 import static NumberHelper.Helper.*;
-
 
 public class HelperTest {
     @Test

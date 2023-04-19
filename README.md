@@ -1,6 +1,6 @@
 # Practice Test
 
-A simple java console app used in order to display the number of digits required to represent the integer part of an input number.
+A simple java console app uses to display the number of digits required to represent the integer part of an input number.
 
 
 The logic behind the  function built to return the number of digits, takes the absolute value of a given number, then counts the number of digits required to represent the integer part of the number by repeatedly dividing the absolute value by 10 until it's less than 10.
@@ -15,7 +15,7 @@ The logic behind the  function built to return the number of digits, takes the a
    ```
    mvn clean install
    ```
-4. Run unit tests that you can find them in ./src/tests dedicated space
+4. Run runners tests that you can find them in ./src/tests dedicated space
    ```
    mvn test
    ```
